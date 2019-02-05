@@ -5,7 +5,7 @@ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 c = []
 
 for num in a:
-    if num in b:
+    if num in b and num not in c:
         c.append(num)
 
 print(c)
