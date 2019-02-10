@@ -10,3 +10,9 @@ def reverser(sentence):
 input_sentence = str(input("Please enter a sentence: "))
 
 print(reverser(input_sentence))
+
+
+def reverse_word(sentence):
+    return " ".join(sentence.split()[::-1])
+
+print(reverse_word(input_sentence))
