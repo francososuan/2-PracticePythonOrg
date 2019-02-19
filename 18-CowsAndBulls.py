@@ -5,6 +5,7 @@ password = str(random.randint(1000,9999))
 print(password)
 password_list = [int(d) for d in str(password)]
 print(password_list)
+
 while True:
     cow = 0
     bull = 0
