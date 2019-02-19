@@ -22,7 +22,6 @@ def find(ordered_list, element_to_find):
         else:
             start_index = middle_index
 
-
 if __name__ == "__main__":
     l = [2, 4, 6, 8, 10]
 
