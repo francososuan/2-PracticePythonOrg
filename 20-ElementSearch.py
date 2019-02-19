@@ -5,7 +5,7 @@ def find(ordered_list, element_to_find):
     print(ordered_list, element_to_find)
 
     while True:
-        middle_index = int((end_index + start_index) / 2)
+        middle_index = (end_index + start_index) // 2
 
 
         if middle_index == start_index or middle_index == end_index:
